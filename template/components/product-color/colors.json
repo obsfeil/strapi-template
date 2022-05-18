@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_product_color_colors",
+  "info": {
+    "name": "colors",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "color_name": {
+      "type": "string",
+      "default": "black"
+    },
+    "color": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "color_thumbnail": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
