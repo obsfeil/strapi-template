@@ -1568,7 +1568,7 @@
     plop "2.7.6"
     pluralize "8.0.0"
 
-"@strapi/helper-plugin@4.1.11":
+"@strapi/helper-plugin@4.1.11", "@strapi/helper-plugin@^4.1.1":
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.1.11.tgz#b970b21809677fe106655999c77941cd0c54dd5b"
   integrity sha512-3W1r6TEIuvvRSkrNT8hruc3eMrXSbMxgnTHL38Cz71P2xf/i3oBpi0NESJ1ek7w0cxDATchMEO6K51zztKoFQA==
@@ -1779,7 +1779,7 @@
     statuses "2.0.1"
     uuid "^3.3.2"
 
-"@strapi/utils@4.1.11":
+"@strapi/utils@4.1.11", "@strapi/utils@^4.1.1":
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.1.11.tgz#6d54d4a3f6d29a487e741f6846ff0fd2a14a199d"
   integrity sha512-BiYYn4Er1VQhFXdqtSPScHS5Pbc8H2sjK1K5MKnI0ri7ckAeEOUUISU6G0HHEZPiN5EGRbxup5igtizOFoaROA==
@@ -9332,6 +9332,14 @@ std-env@^2.2.1:
   integrity sha512-eOsoKTWnr6C8aWrqJJ2KAReXoa7Vn5Ywyw6uCXgA/xDhxPoaIsBa5aNJmISY04dLwXPBnDHW4diGM7Sn5K4R/g==
   dependencies:
     ci-info "^3.1.1"
+
+strapi-plugin-migrations@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-migrations/-/strapi-plugin-migrations-1.0.4.tgz#4ed1743aab7b2b9788a09e6c375e132c35cdd0c1"
+  integrity sha512-4H/6EMtGQszdB1HwiW7V0VxBM1eSkTFU8xgJ11zOA22oTsN8vqiNmM0NqaDJ4g6ncYB1QtBLW3lwZgZ62j3pig==
+  dependencies:
+    "@strapi/helper-plugin" "^4.1.1"
+    "@strapi/utils" "^4.1.1"
 
 stream-browserify@^3.0.0:
   version "3.0.0"
