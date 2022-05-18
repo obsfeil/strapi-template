@@ -4,7 +4,7 @@
             "strapi-plugin-graphql": "latest"
         },
         "scripts": {
-            "custom": "node ./scripts/custom.js, ./api, ./components, ./config"
+            "custom": "./api, ./components, ./config"
 
         }
     }
