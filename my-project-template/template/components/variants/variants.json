@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "components_variants_variants",
+  "info": {
+    "name": "variants",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "decimal"
+    },
+    "sale_price": {
+      "type": "decimal"
+    },
+    "size": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product-size.sizes"
+    },
+    "colors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product-color.colors"
+    }
+  }
+}

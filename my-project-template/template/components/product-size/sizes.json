@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_product_size_sizes",
+  "info": {
+    "name": "sizes",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "size_name": {
+      "type": "string",
+      "default": "Small",
+      "required": true
+    },
+    "size": {
+      "type": "string",
+      "default": "S",
+      "required": true
+    },
+    "size_thumbnail": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
